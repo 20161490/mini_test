@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* .container {
+
+} */
+
+
+/* 버튼 비활성화 일때 */
+ul {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+ul li {
+  color: gray;
+  margin: 30px;
+}
+/* 버튼 활성 */
+ul li.on {
+  color: black;
+  cursor: pointer;
+}
+section {
+  display: flex;
+  justify-content: center;
+width : 300;
+height: 200;
+margin: 40 ; 
+position: relative;
+}
+/* 박스 비활성 */
+section article {
+  width: 100;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  opacity: 0;
+  position: absolute;
+
+}
+/* 박스 활성 */
+section article.on {
+  color: white;
+  font-size: 50px;
+  background: gold;
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+  opacity: 1;
+}
+/* section article.on1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  background: gold;
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+} */
+section article.on1 {
+  color: white;
+  font-size: 50px;
+  background: tomato;
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+}
+section article.on2 {
+  color: white;
+  font-size: 50px;
+  background: green;
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+}
+/* 박스 순서별로 배경색 지정 */
